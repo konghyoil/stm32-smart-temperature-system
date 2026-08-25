@@ -19,8 +19,8 @@ void FreeRtos_Init()
 	configASSERT(xTaskCreate(Fnd_Task, "fnd", 64, NULL, 4, NULL) == pdPASS);
 	configASSERT(xTaskCreate(Temp_Task, "temp", 64, NULL, 5, NULL) == pdPASS);
 	configASSERT(xTaskCreate(State_Task, "state", 64, NULL, 3, NULL) == pdPASS);
-	configASSERT(xTaskCreate(Uart_Task, "uart", 256, NULL, 1, NULL) == pdPASS);
-	configASSERT(xTaskCreate(Oled_Task, "oled", 256, NULL, 2, NULL) == pdPASS);
+	configASSERT(xTaskCreate(Uart_Task, "uart", 256, NULL, 2, NULL) == pdPASS);
+	configASSERT(xTaskCreate(Oled_Task, "oled", 256, NULL, 1, NULL) == pdPASS);
 }
 
 void Led_Task(void * argument)
@@ -124,8 +124,6 @@ void Uart_Task(void *argument)
 			}
 		}
 
-		UBaseType_t remain = uxTaskGetStackHighWaterMark(NULL);
-
 		vTaskDelay(pdMS_TO_TICKS(1000));
 	}
 }
@@ -168,8 +166,6 @@ void Oled_Task(void *argument)
 				ret = OLED_Update(oled_data.State, oled_data.temp_target, oled_data.temp_current);
 			}
 		}
-
-		UBaseType_t remain = uxTaskGetStackHighWaterMark(NULL);
 
 		vTaskDelay(pdMS_TO_TICKS(10));
 	}

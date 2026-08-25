@@ -45,7 +45,7 @@ unsigned char Ds_reset()
 
 	delay_us(410);
 
-	return presence; // 1 = error, 0 = ok
+	return presence;
 }
 
 void Ds_WriteBit(unsigned char bit)
@@ -82,7 +82,7 @@ unsigned char Ds_ReadBit()
 
 	Ds_Input();
 
-	delay_us(3);
+	delay_us(4);
 
 	bit = (HAL_GPIO_ReadPin(Temp_Sensor_GPIO_Port, Temp_Sensor_Pin) == 1);
 

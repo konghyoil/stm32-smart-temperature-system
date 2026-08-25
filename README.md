@@ -63,7 +63,7 @@ STM32의 동작 원리와 Clock 설정, 다양한 주변장치 제어를 학습�
 
 ![시스템 사진](images/demo-photo.jpg)
 
-시연 영상 : 
+시연 영상 : https://youtu.be/ANTitgE3GZw
 
 ---
 
