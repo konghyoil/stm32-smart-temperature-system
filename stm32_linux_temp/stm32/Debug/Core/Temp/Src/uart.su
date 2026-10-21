@@ -1,0 +1,5 @@
+../Core/Temp/Src/uart.c:8:6:transmit_data	48	static
+../Core/Temp/Src/uart.c:56:6:UART_RX_Start	8	static
+../Core/Temp/Src/uart.c:76:7:UART_RX_ParseTemp	24	static
+../Core/Temp/Src/uart.c:107:6:UART_RX_ProcessPower	16	static
+../Core/Temp/Src/uart.c:121:6:HAL_UARTEx_RxEventCallback	16	static

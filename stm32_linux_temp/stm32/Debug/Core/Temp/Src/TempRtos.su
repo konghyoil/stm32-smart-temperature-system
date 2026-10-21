@@ -1,0 +1,8 @@
+../Core/Temp/Src/TempRtos.c:7:6:Task_Init	40	static
+../Core/Temp/Src/TempRtos.c:23:6:Display_Task	64	static
+../Core/Temp/Src/TempRtos.c:44:6:Sensor_Task	48	static
+../Core/Temp/Src/TempRtos.c:68:6:Control_Task	32	static
+../Core/Temp/Src/TempRtos.c:85:6:UartTx_Task	32	static
+../Core/Temp/Src/TempRtos.c:99:6:UartRx_Task	24	static
+../Core/Temp/Src/TempRtos.c:126:6:Data_read	24	static
+../Core/Temp/Src/TempRtos.c:133:6:Data_write	32	static
