@@ -43,6 +43,7 @@ Core/Temp/Src/TempRtos.o: ../Core/Temp/Src/TempRtos.c \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/fonts.h \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/fonts.h \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/dht11_driver.h \
+ C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/display.h \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/ssd1306.h \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/Shared_Resource.h \
  C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/control.h \
@@ -93,6 +94,7 @@ C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/ssd1306.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/fonts.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/fonts.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/dht11_driver.h:
+C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/display.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/ssd1306.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/Shared_Resource.h:
 C:/Users/user/Documents/stm32/Temp_linux/Core/Temp/Inc/control.h:

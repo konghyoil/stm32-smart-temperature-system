@@ -9,7 +9,7 @@ void Task_Init()
 	SystemDataMutex = xSemaphoreCreateMutex();
 	UartRxsemaphore = xSemaphoreCreateBinary();
 
-	int a,b,c,d, e;
+	int a, b, c, d, e;
 
 	a = xTaskCreate(Display_Task, "Display_Task", 128, NULL, 2, NULL);
 	b = xTaskCreate(Sensor_Task, "Sensor_Task", 256, NULL, 7, NULL);
@@ -26,16 +26,13 @@ void Display_Task(void* argument)
 	  SystemData_t data;
 
 	  ssd1306_Init(&hi2c1);
+	  display_Init();
 
 	  while(1)
 	  {
 		  Data_read(&data);
 
-		  sprintf(buf, "%d.%d", (int)data.temp_current, (int)(data.temp_current * 10) % 10);
-
-		  ssd1306_SetCursor(0, 0);
-		  ssd1306_WriteString(buf, Font_16x26, White);
-		  ssd1306_UpdateScreen(&hi2c1);
+		  display_print(&data);
 
 		  vTaskDelay(pdMS_TO_TICKS(1000));
 	  }

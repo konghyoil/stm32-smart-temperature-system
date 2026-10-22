@@ -10,8 +10,9 @@
 #include <stdio.h>
 
 #include "dht11_driver.h"
-#include "ssd1306.h"
-#include "fonts.h"
+//#include "ssd1306.h"
+//#include "fonts.h"
+#include "display.h"
 #include "Shared_Resource.h"
 #include "control.h"
 #include "uart.h"

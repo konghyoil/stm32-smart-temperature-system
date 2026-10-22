@@ -8,6 +8,7 @@ C_SRCS += \
 ../Core/Temp/Src/TempRtos.c \
 ../Core/Temp/Src/control.c \
 ../Core/Temp/Src/dht11_driver.c \
+../Core/Temp/Src/display.c \
 ../Core/Temp/Src/fonts.c \
 ../Core/Temp/Src/ssd1306.c \
 ../Core/Temp/Src/uart.c 
@@ -16,6 +17,7 @@ OBJS += \
 ./Core/Temp/Src/TempRtos.o \
 ./Core/Temp/Src/control.o \
 ./Core/Temp/Src/dht11_driver.o \
+./Core/Temp/Src/display.o \
 ./Core/Temp/Src/fonts.o \
 ./Core/Temp/Src/ssd1306.o \
 ./Core/Temp/Src/uart.o 
@@ -24,6 +26,7 @@ C_DEPS += \
 ./Core/Temp/Src/TempRtos.d \
 ./Core/Temp/Src/control.d \
 ./Core/Temp/Src/dht11_driver.d \
+./Core/Temp/Src/display.d \
 ./Core/Temp/Src/fonts.d \
 ./Core/Temp/Src/ssd1306.d \
 ./Core/Temp/Src/uart.d 
@@ -36,7 +39,7 @@ Core/Temp/Src/%.o Core/Temp/Src/%.su Core/Temp/Src/%.cyclo: ../Core/Temp/Src/%.c
 clean: clean-Core-2f-Temp-2f-Src
 
 clean-Core-2f-Temp-2f-Src:
-	-$(RM) ./Core/Temp/Src/TempRtos.cyclo ./Core/Temp/Src/TempRtos.d ./Core/Temp/Src/TempRtos.o ./Core/Temp/Src/TempRtos.su ./Core/Temp/Src/control.cyclo ./Core/Temp/Src/control.d ./Core/Temp/Src/control.o ./Core/Temp/Src/control.su ./Core/Temp/Src/dht11_driver.cyclo ./Core/Temp/Src/dht11_driver.d ./Core/Temp/Src/dht11_driver.o ./Core/Temp/Src/dht11_driver.su ./Core/Temp/Src/fonts.cyclo ./Core/Temp/Src/fonts.d ./Core/Temp/Src/fonts.o ./Core/Temp/Src/fonts.su ./Core/Temp/Src/ssd1306.cyclo ./Core/Temp/Src/ssd1306.d ./Core/Temp/Src/ssd1306.o ./Core/Temp/Src/ssd1306.su ./Core/Temp/Src/uart.cyclo ./Core/Temp/Src/uart.d ./Core/Temp/Src/uart.o ./Core/Temp/Src/uart.su
+	-$(RM) ./Core/Temp/Src/TempRtos.cyclo ./Core/Temp/Src/TempRtos.d ./Core/Temp/Src/TempRtos.o ./Core/Temp/Src/TempRtos.su ./Core/Temp/Src/control.cyclo ./Core/Temp/Src/control.d ./Core/Temp/Src/control.o ./Core/Temp/Src/control.su ./Core/Temp/Src/dht11_driver.cyclo ./Core/Temp/Src/dht11_driver.d ./Core/Temp/Src/dht11_driver.o ./Core/Temp/Src/dht11_driver.su ./Core/Temp/Src/display.cyclo ./Core/Temp/Src/display.d ./Core/Temp/Src/display.o ./Core/Temp/Src/display.su ./Core/Temp/Src/fonts.cyclo ./Core/Temp/Src/fonts.d ./Core/Temp/Src/fonts.o ./Core/Temp/Src/fonts.su ./Core/Temp/Src/ssd1306.cyclo ./Core/Temp/Src/ssd1306.d ./Core/Temp/Src/ssd1306.o ./Core/Temp/Src/ssd1306.su ./Core/Temp/Src/uart.cyclo ./Core/Temp/Src/uart.d ./Core/Temp/Src/uart.o ./Core/Temp/Src/uart.su
 
 .PHONY: clean-Core-2f-Temp-2f-Src
 

@@ -9,6 +9,7 @@
 "./Core/Temp/Src/TempRtos.o"
 "./Core/Temp/Src/control.o"
 "./Core/Temp/Src/dht11_driver.o"
+"./Core/Temp/Src/display.o"
 "./Core/Temp/Src/fonts.o"
 "./Core/Temp/Src/ssd1306.o"
 "./Core/Temp/Src/uart.o"
