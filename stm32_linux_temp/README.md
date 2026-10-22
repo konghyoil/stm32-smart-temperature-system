@@ -33,7 +33,7 @@
 
 ## 3. 결과
 
-![시스템 사진](images\STM32-RaspberryPi.jpg)
+![시스템 사진](images\STM32-RaspberryPi.png)
 
 시연 영상 : https://youtu.be/RZiizqCIeg0
 
