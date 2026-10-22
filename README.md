@@ -20,7 +20,6 @@
 
 ## 3. 트러블 슈팅
 
-* 비 왔을 때 양말 젖음, 양말 건조 덜 됐음 등의 문제 -> 자동으로 온도를 조절하는 소형 건조기를 구현
 * DHT11 및 DS18B20 통신 중 타이밍 오류 발생 -> FreeRtos 사용간 임계영역(critical)으로 타이밍 보장 및 tim로 delay 구현
 * 힙 메모리 부족으로 task 생성 실패 -> STM32CubeMX의 메모리 설정을 조정
 
@@ -28,13 +27,13 @@
 
 ## 4. 결과
 
-![stm32 - raspberry pi 시스템 사진](images\STM32-RaspberryPi.jpg)
+![stm32-raspberrypi시스템사진](images\STM32-RaspberryPi.jpg)
 시연 영상 : https://youtu.be/RZiizqCIeg0
 
 * UART 기반 STM32–Raspberry Pi 통신 구현
 * Linux C, FIFO를 활용한 프로세스 간 통신 및 GTK GUI 연동
 
-![stm32 시스템 사진](images\STM32.jpg)
+![stm32시스템사진](images\STM32.jpg)
 시연 영상 : https://youtu.be/ANTitgE3GZw
 
 * STM32 주변장치(ADC, I2C, SPI, UART)를 활용한 센서 입력 및 상태 표시 구현
