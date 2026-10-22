@@ -13,8 +13,8 @@
 
 ## 2. 시스템 아키텍쳐
 
-![stm32-raspberrypi](images\stm32-raspberrypi_temp_system.png)
-![stm32](images\stm32_temp_system.png)
+![stm32-raspberrypi](images/stm32-raspberrypi_temp_system.png)
+![stm32](images/stm32_temp_system.png)
 
 ---
 
@@ -27,13 +27,13 @@
 
 ## 4. 결과
 
-![stm32-raspberrypi시스템사진](images\STM32-RaspberryPi.png)
+![stm32-raspberrypi시스템사진](images/STM32-RaspberryPi.png)
 시연 영상 : https://youtu.be/RZiizqCIeg0
 
 * UART 기반 STM32–Raspberry Pi 통신 구현
 * Linux C, FIFO를 활용한 프로세스 간 통신 및 GTK GUI 연동
 
-![stm32시스템사진](images\STM32.png)
+![stm32시스템사진](images/STM32.png)
 시연 영상 : https://youtu.be/ANTitgE3GZw
 
 * STM32 주변장치(ADC, I2C, SPI, UART)를 활용한 센서 입력 및 상태 표시 구현
