@@ -1,18 +1,18 @@
-# Stm32 - raspberry pi
+# STM32 - Raspberry Pi
 
 ## 1. 기술 및 구현 기능
 
-### stm32
+### STM32
 | 사용 기술 | 구현 기능 |
 |------|------|
 | **freertos** | 기능별 task 분리 및 멀티 태스킹 구현 |
 | **I2C** | SSD1306 OLED로 실시간 정보 출력 |
-| **uart** | 명령어를 통해 raspberry pi와 통신 |
+| **uart** | 명령어를 통해 Raspberry Pii와 통신 |
 
-### raspberry pi
+### Raspberry Pi
 | 사용 기술 | 구현 기능 |
 |------|------|
-| **gui** | stm32의 실시간 정보 출력 및 사용자 입력 |
+| **gui** | STM32의 실시간 정보 출력 및 사용자 입력 |
 | **fifo** | 프로세서간 통신으로 gui와 uart 기능 연결 |
 | **thread** | uart rx, tx 멀티 태스킹 구현 |
 
@@ -21,9 +21,9 @@
 
 ### 사용 부품
 
-* stm32f103c8t6
-* raspberry pi 4 
-* dht11 온도 센서
+* STM32F103C8T6
+* Raspberry Pi 4 
+* DHT11 온도 센서
 * SSD1306 OLED 디스플레이
 * 릴레이 모듈
 * LED

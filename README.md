@@ -41,7 +41,7 @@
 
 ## 5. 결과
 
-![stm32-raspberrypi시스템사진](images/STM32-RaspberryPi.png)
+![stm32-raspberrypi시스템사진](images/Temp_System.png)
 시연 영상 : https://youtu.be/RZiizqCIeg0
 
 * UART 기반 STM32–Raspberry Pi 통신 구현
