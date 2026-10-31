@@ -34,7 +34,7 @@
 
 ## 4. 트러블 슈팅
 
-* DHT11 및 DS18B20 통신 중 타이밍 오류 발생 -> FreeRtos 사용간 임계영역(critical)으로 타이밍 보장 및 tim로 delay 구현
+* 온도센서 통신간 타이밍 오류 발생 -> FreeRtos 사용간 임계영역(critical)으로 타이밍 보장 및 tim로 delay 구현
 * 힙 메모리 부족으로 task 생성 실패 -> STM32CubeMX의 메모리 설정을 조정
 
 ---
