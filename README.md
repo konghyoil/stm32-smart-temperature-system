@@ -42,7 +42,7 @@
 ## 5. 결과
 
 ![stm32-raspberrypi시스템사진](images/Temp_System.png)
-시연 영상 : https://youtu.be/RZiizqCIeg0
+시연 영상 : https://youtu.be/N4OOYgIq5ZY
 
 * UART 기반 STM32–Raspberry Pi 통신 구현
 * Linux C, FIFO를 활용한 프로세스 간 통신 및 GTK GUI 연동
